@@ -1,0 +1,135 @@
+# Site settings
+title: Oragekk Blog
+SEOTitle: Oragekk's Blog - 心之所向，身亦至之
+header-img: img/home-bg.jpg
+email: oragekk@163.com
+description: "关于开发与设计、黑客与画家 | 黄坤，Web & Mobile Lover，Front-End Engineer，UX Designer | 这里是 @Oragekk黄坤 的个人博客，与你一起发现更大的世界。"
+keyword: "黄坤, Oragekk, @Oragekk, 黄坤的博客, Oragekk Blog, 博客, 个人网站, 互联网, 前端, 设计, iOS, Lynn"
+url: "https://oragekk.github.io"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+
+
+
+# SNS settings
+RSS: false
+weibo_username:     Oragekk 
+zhihu_username:     贝塔贝卡贝
+github_username:    oragekk
+#twitter_username:  huxpro
+facebook_username:  hkoragekk
+# linkedin_username:  firstname-lastname-idxxxx
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+disqus_username: oragekk
+
+# Duoshuo settings
+# duoshuo_username: Oragekk
+# Share component is depend on Comment so we can NOT use share only.
+# duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
+
+
+
+# Analytics settings
+# Baidu Analytics 
+# ba_track_id: [your track id]
+
+# Google Analytics
+ga_track_id: 'UA-86818126-1'            # Format: UA-xxxxxx-xx
+ga_domain: oragekk.me
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "想把会的，不会的，都做的更好。世界那么大，我想去看看。"
+sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+friends: [
+    {
+        title: "Hux Blog",
+        href: "http://huangxuan.me"
+    },{
+        title: "当时只道是寻常",
+        href: "https://www.anotherhome.net/"
+    },{
+        title: "Su",
+        href: "http://su.gallery/"
+    },{
+        title: "殷浩民的博客",
+        href: "http://www.yinhaomin.com/"
+    },{
+        title: "乱序",
+        href: "http://mida.re/"
+    },{
+        title: "前端外刊评论",
+        href: "http://qianduan.guru/"
+    },{
+        title: "Luke 的自留地",
+        href: "http://hmqk1995.github.io"
+    },{
+        title: "Ebn's Blog",
+        href: "http://ebnbin.com/"
+    },{
+        title: "SmdCn's Blog",
+        href: "http://blog.smdcn.net"
+    },{
+        title: "DHong Say",
+        href: "http://dhong.co"
+    },{
+        title: "曲天白的简书",
+        href: "http://www.jianshu.com/u/55c8fdc3c6e7"
+    },{
+        title: "qwq的一篇天地",
+        href: "https://prprpr.xyz/"
+    },{
+        title: "Ykk's blog'",
+        href: "http://ykksmile.top/" 
+    },{
+        title: "UHEY's BLOG'",
+        href: "http://u-hey.com/"
+    }
+]

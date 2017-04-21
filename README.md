@@ -1,0 +1,1 @@
+# y-mag.github.io

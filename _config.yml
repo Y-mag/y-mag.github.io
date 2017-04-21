@@ -14,7 +14,7 @@ baseurl: ""                             # for example, '/blog' if your blog host
 RSS: false
 weibo_username:      
 zhihu_username:     
-github_username:    
+github_username:    Y-mag
 #twitter_username:  huxpro
 facebook_username:  
 # linkedin_username:  firstname-lastname-idxxxx
@@ -70,8 +70,8 @@ disqus_username: oragekk
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "示例"
-sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "写写代码，做做设计 离开世界之前一切都是过程"
+sidebar-avatar: /img/wei.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 

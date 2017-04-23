@@ -2,7 +2,7 @@
 layout:     post
 title:      "ajax详解"
 subtitle:   "JavaScript ajax jQuery.ajax 跨域"
-date:       2017-04-23
+date:       2017-04-22
 author:     "Wei"
 header-img: "img/home-bg-o.jpg"
 tags:
